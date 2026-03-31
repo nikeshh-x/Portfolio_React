@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/College-Portal.png";
+import project2 from "../assets/projects/Miles-For-Smiles.png";
+import project3 from "../assets/projects/Portfolio.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/School-Management-System.png";
+import project6 from "../assets/projects/Social-App.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer focused on building robust and scalable web applications. With hands-on experience in modern web development, I have developed my skills in front-end technologies like React, as well as back-end technologies like Python, Django, PostgreSQL, and MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -47,18 +49,25 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Tailwind", "Django", "PostgreSQL"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind"],
-  },
-  {
     title: "Inventory Management System",
     image: project4,
     description:
       "Built an Inventory Management System to streamline product tracking, user management, and sales operations for better efficiency and record accuracy. The system includes role-based access control, sales reporting, and import/export functionality to manage inventory data effectively.",
     technologies: ["PHP", "Laravel", "MySQL", "Tailwind"],
+  },
+  {
+    title: "School Management System",
+    image: project5,
+    description:
+      "Built an School Management System to streamline student information, attendance tracking, and academic performance evaluation. The system includes role-based access control, reporting features, and import/export functionality to manage student data effectively.",
+    technologies: ["Python", "Django", "Sqlite3", "Tailwind"],
+  },
+  {
+    title: "Social App",
+    image: project6,
+    description:
+      "Built an Social App to facilitate user interaction, content sharing, and community building. The app includes features such as user profiles, feed management, and real-time messaging.",
+    technologies: ["Django", "Python", "HTMX"],
   },
 ];
 
