@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from '../constants'
-import profileImage from '../assets/nikeshhProfile.png'
+import profileImage from '../assets/dp.png'
 import {motion} from "framer-motion"
 
 const container = (delay)=>({
@@ -44,7 +44,7 @@ const Hero = () => {
                     initial={{x:100, opacity:0}}
                     animate={{x:0,opacity:1}}
                     transition={{duration:1, delay:1.2}}
-                    className='rounded-xl w-120' src={profileImage} alt="Nikesh Manandhar" />
+                    className='rounded-xl md:w-250 md:h-120' src={profileImage} alt="Nikesh Manandhar" />
                 </div>
             </div>
         </div>
